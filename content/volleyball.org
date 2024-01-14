@@ -1,0 +1,202 @@
+:PROPERTIES:
+:ID:       dd05ad58-62a2-4392-ba4d-61e4c62ea024
+:END:
+#+title: Volleyball
+
+* Volleyball
+
+** 5-1 system
+
+*** Legend / Position Names
+
+| O  | Outside Hitter  |
+| M  | Middleblock     |
+| OP | Opposite Hitter |
+| S  | Setter          |
+| L  | Libera:o        |
+
+*** Starting Positions
+
+These are the starting positions (with *S* being on position 1) for
+all players, including positional numbers.
+
+#+caption: Starting positions on *S_{1}*
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z1-Startpositionen.png]]
+
+
+_Important:_
+- *O1/2* start diagonally to each other
+- *M1/2* start diagonally to each other
+- *S* and *OP* start diagonally to each other
+
+*** Base Positions
+
+The 6 different rotations can be split into the two groups:
+- *S* starts in the back row, on positions 1/5/6
+- *S* starts in the front row, on positions 4/3/2
+
+
+For every scenario we have defined target positions (where you want to
+end up after switching), independently of how one starts in the
+serving and receiving rotation.
+
+**** With setter in the back court (Positions: 1,6,5)
+
+#+attr_latex: :float t
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Läufer-Zielpositionen.png]]
+
+- *S* starts in the back court, so they are not allowed to
+  block/attack from the front court above the net
+
+- as soon as the ball was received, *S* moves to position "2.5"
+  (between 2 and 3) so they can set
+
+- as soon as the ball passes the net, *S* switches positions with *OP*
+  so *OP* can block and *S* secure the block / defend
+
+- if *S* have to defend / receive, *OP* (or any other position) have
+  to temporarily step up as setter
+
+**** With setter in the front court (Positions:4,3,2)
+
+#+attr_latex: :float t
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Wechsel-Zielpositionen.png]]
+
+- *S* started in the front court, so they can actively attack / block
+
+- *OP* starts in the back court, so can only do back attacks
+
+*** Game Scenarios
+
+The following scenarios are listed in the order that they will appear
+during a game.
+
+The most complicated scenarios are the *S_{1}*, *S_{6}*, *S_{5}*,
+because *S* and *OP* have to continually switch positions.
+
+**** Setter on position 1 (Service)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z1-Angabe.png]]
+
+- immediately after the serve, *S* has to secure the block behind *OP*
+
+**** Setter on position 1 (Receive)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z1-Annahme.png]]
+
+- *M2* have to ensure that they do not block the view of the receiving
+  parties
+
+- *O1* move backwards for the first receive, and *S* has to ensure
+  that they remain behind *O1*
+
+- *S* does not have to receive, but has to get to their position "2.5"
+  right after the receive
+
+- exceptionally, *O1* and *OP* are not on their goal positions
+
+**** Setter on position 6 (Service)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z6-Angabe.png]]
+
+- *S* does not have to ensure staying behind *O2*, because *O2* is out
+  of court for the serve
+
+- *L* can immediately move to position 5
+
+- *O1* moves to defend on position 6 immediately after serving
+
+**** Setter on position 6 (Receive)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z6-Annahme.png]]
+
+_Attention_:
+- *S* can not start before *OP*
+- *S* has to start right of *L* and left of *O1*
+
+- *M2* and *OP* move to the right to ensure a clear view for the
+  receiving parties and so that *S* is as close to position "2.5" as
+  possible
+
+**** Setter on position 5 (Service)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z5-Angabe.png]]
+
+- *S* and *O1* stand close to the center, a bit rightbound, so that
+  *S* can quickly secure the block
+
+**** Setter on position 5 (Receive)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z5-Annahme.png]]
+
+- *O2* moves from 3 to 5 to fill in with the receiving
+
+- *S* needs to be faaaaast (if the receivers are kind, they will receive very high)
+
+- *O2*, *O1* and *L* switch after successful receive
+
+- And yes, *S* /could/ start further towards the center (left of position 6),
+  but that would impede the clear view for the receivers...
+
+**** Setter on position 4 (Service)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z4-Angabe.png]]
+
+... simple af ...
+
+**** Setter on position 4 (Receive)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z4-Annahme.png]]
+
+- *O2* shifts all the way from position 2 to 5, which is why *M1* and
+  *S* have to shift all the way to the left
+
+- *O2* cannot start behind *OP*, which is why *OP* moves all the way
+  back
+
+- *OP* is freed from the heavy duty of receiving
+
+**** Setter on position 3 (Service)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z3-Angabe.png]]
+
+ ... also simple af ...
+
+**** Setter on position 3 (Receive)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z3-Annahme.png]]
+
+- *O1* moves back to receiving (but has to remain in front of *L*)
+
+- *L* shifts to target position 6 for receiving
+
+**** Setter on position 2 (Service)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z2-Angabe.png]]
+
+... so simple ...
+
+**** Setter on position 2 (Receive)
+
+#+attr_org: :width 450
+[[file:./assets/system-5-1/System-5-1_Z2-Annahme.png]]
+
+... do I even need to say it? ...
+
+** More Resources / Links
+
+- https://volleyballvault.com/5-1-volleyball-rotation/
